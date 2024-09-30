@@ -40,6 +40,8 @@ const LatestFeatured = () => {
               </p>
               <Image
                 className='object-cover w-full aspect-video'
+                width={500}
+                height={300}
                
                 src={featured.image}
                 alt="Featured Image" 
