@@ -38,7 +38,7 @@ const LatestFeatured = () => {
               <img
                 className='object-cover w-full aspect-video'
                 src={featured.image}
-                alt=""
+                alt="Featured Image" 
               />
             </div>
           ))}
