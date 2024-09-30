@@ -1,6 +1,7 @@
 import { LATEST_FEATURED } from '@/constants'
 import React from 'react'
 import { Button } from './ui/button';
+import Image from 'next/image';
 
 const LatestFeatured = () => {
   return (
@@ -35,8 +36,11 @@ const LatestFeatured = () => {
               <p className='max-w-full text-start text-xs sm:text-sm pr-2'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <img
+              <Image
                 className='object-cover w-full aspect-video'
+                width={500}
+                height={300}
+
                 src={featured.image}
                 alt="Featured Image" 
               />
