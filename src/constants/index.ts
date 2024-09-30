@@ -298,28 +298,28 @@ export const WELCOME_DATA = [
 export const LATEST_FEATURED= [
   {
     id: 1,
-    image: "/featuredimg1.png",
+    image: "/featuredimg-1.png",
   },
   {
     id: 2,
-    image: "/featuredimg2.png",
+    image: "/featuredimg-2.png",
   },
   {
     id: 3,
-    image: "/featuredimg3.png",
+    image: "/featuredimg-3.png",
   },
   {
     id: 4,
-    image: "/featuredimg4.png",
+    image: "/featuredimg-4.png",
   }
   ,
   {
     id: 5,
-    image: "/featuredimg5.png",
+    image: "/featuredimg-5.png",
   },
   {
     id: 6,
-    image: "/featuredimg6.png",
+    image: "/featuredimg-6.png",
   }
  
 ];
