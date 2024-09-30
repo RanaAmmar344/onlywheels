@@ -2,26 +2,137 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.hero-container{
+  background-image:url('../../public/hero-background.png') ;
+  background-size: cover;
+  background-position: 50%;
+  height: 900px;
+  width: auto ;
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+*{
+  font-family:"Bai Jamjuree", sans-serif; ;
+}
+
+
+.custom-color{
+
+  color: #BC000D;
+}
+.custom-bg{
+  background-color:  #FF0000;
+  ;
+}
+.welcom-container{
+  background-color: rgba(0, 0, 0, 0.981);
+  color: white;
+ 
+}
+.member{
+  background: linear-gradient(176.13deg, rgba(0, 0, 0, 0.115) -79.58%, rgba(188, 0, 13, 0.46) 56.68%);
+
+
+}
+.l-featured{
+  background-color: rgba(0, 0, 0, 0.92);
+  
+}
+.we-offer{
+  background-image: url('../../public/weoffer.png');
+   width: 100%;
+  height: 690px ;
+  background-size: cover;
+ position: relative;
+  bottom: 14px;
+  
+ 
+}
+
+.offer-text{
+
+  position: relative;
+  left: 460px;
+  bottom: 160px;
+}
+
+.chose-us{
+  background-image: linear-gradient(to top, rgb(0,0,0,0.7),rgb(0,0,0,0.4)), url('../../public/choose-us.jfif');
+   width: 100%;
+  height: 803px ;
+  background-size: cover;
+ position: relative;
+  bottom: 14px;
+  
+ 
+}
+.choose{
+  position: relative;
+  top: 450px;
+}
+.testimonial{
+  position: relative;
+  bottom: 14px;
+}
+
+.footer{
+  background-image: linear-gradient(to top, rgb(0,0,0,0.7),rgb(0,0,0,0.4)), url('../../public/footer.jfif');
+ background-size: cover;
+ background-position: 80%;
+position: relative;
+ bottom: 14px;
+
+}
+
+
+/* custom Responsive Query */
+
+@media (max-width: 500px) {
+  .custom-text-big{
+font-size: x-large;
+
   }
-}
+  .hero-sm-text{
+    position: relative;
+    right: 30px;
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
   }
-}
+  .member-res{
+    font-size: 40px;
+    margin-top: 8px;
+
+  }
+  .wlc-icon-res {
+    position: absolute;
+    right: 60px;
+bottom: 88px;
+  }
+  .we-offer {
+    height: auto;
+    padding-bottom: 60px;
+  }
+ 
+ .offer-item{
+
+  position: relative;
+  bottom: 200px;
+ }
+ .chose-us{
+  height: 1000px;
+ }
+ .choose-text{
+  position: relative;
+  bottom: 400px;
+ }
+ .social{
+  position: relative;
+  right: 250px;
+  top: 180px;
+ }
+ .footer-item{
+  position: relative;
+  right: 60px;
+ }
+      
+  }
