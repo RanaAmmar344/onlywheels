@@ -2,6 +2,7 @@ import { LATEST_FEATURED } from '@/constants'
 import React from 'react'
 import { Button } from './ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const LatestFeatured = () => {
   return (
@@ -17,6 +18,7 @@ const LatestFeatured = () => {
               key={index}
               className='w-full md:w-1/2 lg:w-1/3 p-4 space-y-3 flex flex-col items-start'
             >
+              <Link href='#'> 
               <div className='flex items-center space-x-2'>
                 <img
                   src="/featured-logo.png"
@@ -38,12 +40,11 @@ const LatestFeatured = () => {
               </p>
               <Image
                 className='object-cover w-full aspect-video'
-                width={500}
-                height={300}
-
+               
                 src={featured.image}
                 alt="Featured Image" 
               />
+              </Link>
             </div>
           ))}
         </div>
