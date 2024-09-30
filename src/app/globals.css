@@ -28,8 +28,15 @@
 .welcom-container{
   background-color: rgba(0, 0, 0, 0.981);
   color: white;
+  height: 860px;
+  
  
 }
+.member-res{
+  position: relative;
+  bottom: 80px;
+}
+
 .member{
   background: linear-gradient(176.13deg, rgba(0, 0, 0, 0.115) -79.58%, rgba(188, 0, 13, 0.46) 56.68%);
 
@@ -134,5 +141,6 @@ bottom: 88px;
   position: relative;
   right: 60px;
  }
+ 
       
   }

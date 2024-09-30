@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import insta from '../../public/follow-us-insta.png';
 
-const ResponsiveCarousel = () => {
+const OurGallery = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [itemsPerFrame, setItemsPerFrame] = useState(4); 
 
@@ -105,4 +105,4 @@ const ResponsiveCarousel = () => {
     );
 };
 
-export default ResponsiveCarousel;
+export default OurGallery;
