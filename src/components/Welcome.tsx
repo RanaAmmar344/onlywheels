@@ -47,7 +47,7 @@ const Welcome = () => {
         <div className="welcom-container w-screen   mx-auto pb-20">
             {/* Header Section */}
             <div className="flex flex-col md:flex-row pt-20 md:p-20 space-y-6">
-                <div className="max-w-2xl">
+                <div className="max-w-2xl mx-6">
                     <h1 className="mb-6 text-3xl lg:text-6xl md:text-4xl sm:text-3xl">Welcome to our website!</h1>
                     <p className="text-sm pr-20">— For only $9.99 a month you'll gain access to the OnlyWheels platform where
                         you will be able to access content such as behind the scenes videos, clips and

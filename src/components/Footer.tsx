@@ -5,15 +5,18 @@ import { IoLocationSharp } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 
 import { TiTick } from "react-icons/ti";
-import { Facebook, FacebookIcon, TwitchIcon, TwitterIcon, YoutubeIcon } from 'lucide-react';
+import { FaFacebook } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+
 
 
 const Footer = () => {
   return (
-    <div className='footer text-white p-20 w-full mx-auto '>
-  <div className='flex flex-wrap border-b border-neutral-700 pb-10'>
+    <div className='footer text-white p-20 w-full overflow-hidden mx-auto '>
+  <div className='flex flex-wrap border-b border-white pb-10'>
 
-    <div className='w-full md:w-1/2 lg:w-6/12'>
+    <div className=' relative  sm:left-40 w-full md:w-1/2 lg:w-6/12'>
     <img 
     src="/main-logo.png" 
     width={200}
@@ -22,16 +25,16 @@ const Footer = () => {
      <p className='text-sm py-6 max-w-sm'>{FOOTER.description}</p>
      
     </div>
-    <div className=''>
-          <div className='flex footer-item'> 
+    
+          <div className='flex  footer-item '> 
           {
             FOOTER.categories.map((footer,index)=>(
               <div key={index} className=' mx-4  w-full md:w-1/2 lg:w-full'>
                 <h3 className='font-semibold' >{footer.name}</h3>
-                <ul>
+                <ul className='w-full  '>
                   {footer.links.map((footerlink,index)=>(
                       <li className=' my-1 text-sm' key={index}>
-                      <Link className='hover:text-neutral-400' href={footerlink.url}>
+                      <Link className='hover:text-red-600' href={footerlink.url}>
                       {footerlink.title}
                     </Link>
                     </li>
@@ -53,21 +56,21 @@ const Footer = () => {
 
           </div>
           <div className='w-full social '>
-            <h3 className='font-semibold'>FOLLOW US</h3>
+            <h3 className='font-semibold'>FOLLOW US</h3> 
             <div className='flex space-x-3 my-2'>
-            <FacebookIcon  className='bg-red-600 rounded-full rounded-4 p-1 size-9'  />
-            <TwitterIcon  className='bg-red-600 rounded-full rounded-4 p-1 size-9'/>
-            <YoutubeIcon  className='bg-red-600 rounded-full rounded-4 p-1 size-9'/>
+            <FaFacebook   className='bg-f-i rounded-full rounded-4 p-2 size-9'  />
+            <FaTwitter className='bg-f-i rounded-full rounded-4 p-2 size-9'/>
+            <FaYoutube className='bg-f-i rounded-full rounded-4 p-2 size-9'/>
 
             </div>
             
           </div>
           </div>
-        </div>
+        
 
   </div>
 
-  <h3 className='flex items-center justify-center pt-2 text-neutral-500 text-center'>{FOOTER.copyright}</h3>
+  <h3 className='flex items-center justify-center pt-2 text-white text-center'>{FOOTER.copyright}</h3>
     </div>
   )
 }

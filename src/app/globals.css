@@ -12,11 +12,7 @@
   
 }
 
-*{
- 
-  
 
-}
 html, body {
   overflow-x: hidden;
   margin: 0%;
@@ -60,7 +56,7 @@ html, body {
   height: 690px ;
   background-size: cover;
  position: relative;
-  bottom: 14px;
+  bottom: 18px;
   
  
 }
@@ -71,6 +67,10 @@ html, body {
   left: 460px;
   bottom: 160px;
 }
+.our-gallery{
+  position: relative;
+  bottom: 18px;
+}
 
 .chose-us{
   background-image: linear-gradient(to top, rgb(0,0,0,0.7),rgb(0,0,0,0.4)), url('../../public/choose-us.jfif');
@@ -78,7 +78,7 @@ html, body {
   height: 803px ;
   background-size: cover;
  position: relative;
-  bottom: 14px;
+  bottom: 18px;
   
  
 }
@@ -88,7 +88,7 @@ html, body {
 }
 .testimonial{
   position: relative;
-  bottom: 14px;
+  bottom: 18px;
 }
 
 .footer{
@@ -96,10 +96,13 @@ html, body {
  background-size: cover;
  background-position: 80%;
 position: relative;
- bottom: 14px;
+ bottom: 18px;
 
 }
+.bg-f-i{
+  background: #CC0000;
 
+}
 
 /* custom Responsive Query */
 
@@ -145,7 +148,7 @@ bottom: 88px;
   right: 250px;
   top: 180px;
  }
- .footer-item{
+ .footer-item {
   position: relative;
   right: 60px;
  }

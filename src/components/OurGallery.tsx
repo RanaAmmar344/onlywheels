@@ -14,9 +14,9 @@ const OurGallery = () => {
         const updateItemsPerFrame = () => {
             const width = window.innerWidth;
             if (width <= 640) {
-                setItemsPerFrame(2); 
+                setItemsPerFrame(1); 
             } else {
-                setItemsPerFrame(4); 
+                setItemsPerFrame(6); 
             }
         };
 
@@ -43,7 +43,7 @@ const OurGallery = () => {
     const currentItems = OUR_GALLERY.slice(currentIndex, currentIndex + itemsPerFrame);
 
     return (
-        <div className=" w-screen  mx-auto  relative bottom-3.5 flex flex-col h-full py-20 bg-black items-center justify-center">
+        <div className=" our-gallery w-screen  mx-auto  relative bottom-3.5 flex flex-col h-full py-20 bg-black items-center justify-center">
            
             <div>
                 <h1 className='text-3xl lg:text-6xl md:text-5xl sm:text-4xl text-white font-semibold tracking-tighter'>
@@ -52,21 +52,21 @@ const OurGallery = () => {
             </div>
 
           
-            <div className="relative w-full max-w-[1600px] h-[420px]">
+            <div className="relative w-full max-w-full h-[420px]">
                
                 <button
                     onClick={handlePrevious}
-                    className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full z-10"
+                    className=" relative top-80 left-6  transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full z-10"
                 >
                     &#8592;
                 </button>
 
                 
-                <div className="flex gap-5 w-full h-full rounded-lg overflow-hidden mt-20">
+                <div className="flex gap-6 w-full h-full rounded-lg overflow-hidden mt-20">
                     {currentItems.map((item, index) => (
                         <div
                             key={index}
-                            className="relative w-[280px] h-full md:basis-1/2 lg:basis-1/3 rounded-xl overflow-hidden"
+                            className=" relative left-16    w-[280px] h-full md:basis-1/2 lg:basis-1/4  rounded-xl overflow-hidden"
                         >
                             
                             <video
@@ -74,7 +74,7 @@ const OurGallery = () => {
                                 autoPlay
                                 muted
                                 loop
-                                className="object-cover w-full h-[420px] rounded-xl"
+                                className="object-cover w-[243px] h-[420px] rounded-xl"
                             />
 
                            
@@ -92,7 +92,7 @@ const OurGallery = () => {
 
                 <button
                     onClick={handleNext}
-                    className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full z-10"
+                    className="absolute right-10 top-80 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full z-10"
                 >
                     &#8594;
                 </button>

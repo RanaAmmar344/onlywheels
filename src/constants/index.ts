@@ -360,7 +360,31 @@ export const OUR_GALLERY= [
     video: "/gallery6.mp4",
      profile: "/gp6.png",
     name:"rana ammar"
-  }
+  },
+  {
+    id: 7,
+    video: "/gallery7.mp4",
+     profile: "/gp6.png",
+    name:"coder pro"
+  },
+  {
+    id: 8,
+    video: "/gallery8.mp4",
+     profile: "/gp8.png",
+    name:"high speed"
+  },
+  {
+    id: 9,
+    video: "/gallery9.mp4",
+     profile: "/gp9.png",
+    name:"hamster dee"
+  },
+  {
+    id: 10,
+    video: "/gallery10.mp4",
+    profile: "/gp10.png",
+    name:"jack tom"
+  },
  
 ];
 // export const GALLERY_PROFILE= [
@@ -411,20 +435,20 @@ members the chance of providing
 everyday Australian’s to change their lives
 with multiple opportunities that will arise
 in the near future…`,
-  copyright: `Copyright © 2024 Coder Bros. All Rights Reserved `,
+  copyright: `Copyright All Rights Reserved © 2024 Only Wheels `,
   categories: [
     {
       name: "QUICK LINKS",
       links: [
         { title: "Home", url: "#" },
-        { title: "About", url: "#" },
+        { title: "About us", url: "#" },
         { title: "RoadMap", url: "#" },
         { title: "FAQ", url: "#" },
         { title: "Affiliate", url: "#" },
         { title: "Posts", url: "#" },
         { title: "Contact Us", url: "#" },
         { title: "My Account", url: "#" },
-        { title: "Terms and Conditions", url: "#" },
+        { title: "Terms Conditions", url: "#" },
       ],
     },
   
