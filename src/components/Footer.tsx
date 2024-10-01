@@ -10,7 +10,7 @@ import { Facebook, FacebookIcon, TwitchIcon, TwitterIcon, YoutubeIcon } from 'lu
 
 const Footer = () => {
   return (
-    <div className='footer text-white p-20'>
+    <div className='footer text-white p-20 w-full mx-auto '>
   <div className='flex flex-wrap border-b border-neutral-700 pb-10'>
 
     <div className='w-full md:w-1/2 lg:w-6/12'>

@@ -3,7 +3,7 @@ import React from 'react'
 const WhatWeOffer = () => {
   return (
     <>
-      <div className='we-offer mx-auto flex flex-col lg:flex-row items-center justify-center pb-20 px-4'>
+      <div className='we-offer w-screen  mx-auto flex flex-col lg:flex-row items-center justify-center pb-20 px-4'>
       
   <div className='offer-text   mt-10'>
     <h3 className='text-3xl sm:text-5xl lg:text-6xl  text-white tracking-tighter'>

@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 const Hero = () => {
   return (
-    <div className='hero-container  '>
+    <div className='hero-container w-full mx-auto  '>
       
       <div className='text-white max-w-3xl flex flex-col items-center justify-center   '>
         <div className=' hero-sm-text space-y-8 mt-40  ml-20 pt-20' >  

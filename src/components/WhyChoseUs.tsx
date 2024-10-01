@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyChoseUs = () => {
   return (
-    <div className='chose-us '>
+    <div className='chose-us w-screen  mx-auto  '>
       <div className='relative lg:top-60 top-20'>
 
         {/* Flexbox container for the features */}

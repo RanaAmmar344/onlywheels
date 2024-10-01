@@ -44,7 +44,7 @@ const Welcome = () => {
     const currentItems = WELCOME_DATA.slice(currentIndex, currentIndex + itemsPerFrame);
 
     return (
-        <div className="welcom-container mx-auto pb-20">
+        <div className="welcom-container w-screen   mx-auto pb-20">
             {/* Header Section */}
             <div className="flex flex-col md:flex-row pt-20 md:p-20 space-y-6">
                 <div className="max-w-2xl">
@@ -57,7 +57,7 @@ const Welcome = () => {
                         access to future promotion Giveaways, Competitions and Events!</p>
                 </div>
 
-                {/* Membership CTA */}
+               
                 <div className="mx-auto">
                     <h3 className="text-center custom-bg px-6 py-3 rounded-full cursor-pointer text-white hover:bg-red-700">
                         Start Your Membership Today!
@@ -65,11 +65,10 @@ const Welcome = () => {
                 </div>
             </div>
 
-            {/* Carousel Section */}
             <div className="relative w-full max-w-[1600px] h-[420px] lg:mx-20 mx-5 pb-20">
-                {/* Buttons for mobile and large devices */}
+                
                 <div className="absolute top-5  right-2   lg:right-40 pb-20 mx-6  flex space-x-2 z-10">
-                    {/* Previous Button */}
+                   
                     <button
                         onClick={handlePrevious}
                         className="text-black px-2 mr-4  lg:px-4 bg-white p-1 lg:p-2 rounded-full"

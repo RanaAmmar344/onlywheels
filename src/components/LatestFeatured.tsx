@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const LatestFeatured = () => {
   return (
-    <div className='l-featured text-white mx-auto py-10 px-4 sm:px-6 md:px-10'>
+    <div className='l-featured text-white w-full mx-auto py-10 px-4 sm:px-6 md:px-10'>
       <div className='text-center'>
         <h1 className='text-3xl lg:text-6xl md:text-5xl sm:text-4xl font-semibold tracking-tighter'>
           LATEST <span className='custom-color'>FEATURED</span> <br /> POSTS

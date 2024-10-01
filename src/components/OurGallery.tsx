@@ -43,7 +43,7 @@ const OurGallery = () => {
     const currentItems = OUR_GALLERY.slice(currentIndex, currentIndex + itemsPerFrame);
 
     return (
-        <div className=" relative bottom-3.5 flex flex-col h-full py-20 bg-black items-center justify-center">
+        <div className=" w-screen  mx-auto  relative bottom-3.5 flex flex-col h-full py-20 bg-black items-center justify-center">
            
             <div>
                 <h1 className='text-3xl lg:text-6xl md:text-5xl sm:text-4xl text-white font-semibold tracking-tighter'>

@@ -26,7 +26,7 @@ const Navbar = () => {
                         alt='Logo'
 
                     />
-                    <div className='hidden lg:flex '>
+                    <div className='hidden lg:flex bg-black rounded-full px-2 '>
                         <ul className='flex items-center cursor-pointer gap-4'>
                             <li className=' p-1 hover:border-b-2 hover:border-red-800' >Home</li>
                             <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li>
@@ -40,7 +40,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <div className=' hidden lg:flex text-sm text-white' >
+                    <div className=' hidden lg:flex text-sm text-white ' >
 
                         <Link href="/login"> <Button variant='outline' className='rounded-full border border-red-800 text-red-600 hover:bg-red-700 hover:text-white px-11 py-2 mr-2'     > Sign in </Button> </Link>
                         <Link href='/signup' >  <Button className='rounded-full border border-red-600 text-white-500 bg-red-700 hover:bg-red-600 px-11 py-2'>Sign Up</Button></Link>
