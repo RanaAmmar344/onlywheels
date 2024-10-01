@@ -13,9 +13,9 @@ const LatestFeatured = () => {
         </h1>
 
         <div className='flex flex-wrap justify-center gap-8 mt-10'>
-          {LATEST_FEATURED.map((item, index) => (
+      
             <div
-              key={index}
+              
               className='w-full md:w-1/2 lg:w-1/3 p-4 space-y-3 flex flex-col items-start'
             >
               
@@ -42,12 +42,177 @@ const LatestFeatured = () => {
                 className='object-cover w-full aspect-video'
                 width={500}
                 height={300}
-                src={item.image}
+                src='/featured-1.jfif'
                 alt="Featured Image" 
               />
               
             </div>
-          ))}
+            <div
+              
+              className='w-full md:w-1/2 lg:w-1/3 p-4 space-y-3 flex flex-col items-start'
+            >
+              
+              <div className='flex items-center space-x-2'>
+                <Image
+                  src="/featured-logo.png"
+                  className='rounded-full bg-black'
+                  height={60}
+                  width={60}
+                  alt=""
+                />
+                <div>
+                  <h3 className='font-semibold'>Only Wheels</h3>
+                  <span className='text-sm mr-2'>@onlyWheels</span>
+                </div>
+                <img className='pb-5 ' src="/tick-icon.png" alt="" />
+                <span className='text-xs sm:text-sm relative left-20 bottom-4'>2 hours ago</span>
+              </div>
+
+              <p className='max-w-full text-start text-xs sm:text-sm pr-2'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <Image
+                className='object-cover w-full aspect-video'
+                width={500}
+                height={300}
+                src='/featured-2.jfif'
+                alt="Featured Image" 
+              />
+              
+            </div>
+            <div
+              
+              className='w-full md:w-1/2 lg:w-1/3 p-4 space-y-3 flex flex-col items-start'
+            >
+              
+              <div className='flex items-center space-x-2'>
+                <Image
+                  src="/featured-logo.png"
+                  className='rounded-full bg-black'
+                  height={60}
+                  width={60}
+                  alt=""
+                />
+                <div>
+                  <h3 className='font-semibold'>Only Wheels</h3>
+                  <span className='text-sm mr-2'>@onlyWheels</span>
+                </div>
+                <img className='pb-5 ' src="/tick-icon.png" alt="" />
+                <span className='text-xs sm:text-sm relative left-20 bottom-4'>2 hours ago</span>
+              </div>
+
+              <p className='max-w-full text-start text-xs sm:text-sm pr-2'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <Image
+                className='object-cover w-full aspect-video'
+                width={500}
+                height={300}
+                src='/featured-3.jfif'
+                alt="Featured Image" 
+              />
+              
+            </div>
+            <div
+              
+              className='w-full md:w-1/2 lg:w-1/3 p-4 space-y-3 flex flex-col items-start'
+            >
+              
+              <div className='flex items-center space-x-2'>
+                <Image
+                  src="/featured-logo.png"
+                  className='rounded-full bg-black'
+                  height={60}
+                  width={60}
+                  alt=""
+                />
+                <div>
+                  <h3 className='font-semibold'>Only Wheels</h3>
+                  <span className='text-sm mr-2'>@onlyWheels</span>
+                </div>
+                <img className='pb-5 ' src="/tick-icon.png" alt="" />
+                <span className='text-xs sm:text-sm relative left-20 bottom-4'>2 hours ago</span>
+              </div>
+
+              <p className='max-w-full text-start text-xs sm:text-sm pr-2'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <Image
+                className='object-cover w-full aspect-video'
+                width={500}
+                height={300}
+                src='/featured-4.jfif'
+                alt="Featured Image" 
+              />
+              
+            </div>
+            <div
+              
+              className='w-full md:w-1/2 lg:w-1/3 p-4 space-y-3 flex flex-col items-start'
+            >
+              
+              <div className='flex items-center space-x-2'>
+                <Image
+                  src="/featured-logo.png"
+                  className='rounded-full bg-black'
+                  height={60}
+                  width={60}
+                  alt=""
+                />
+                <div>
+                  <h3 className='font-semibold'>Only Wheels</h3>
+                  <span className='text-sm mr-2'>@onlyWheels</span>
+                </div>
+                <img className='pb-5 ' src="/tick-icon.png" alt="" />
+                <span className='text-xs sm:text-sm relative left-20 bottom-4'>2 hours ago</span>
+              </div>
+
+              <p className='max-w-full text-start text-xs sm:text-sm pr-2'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <Image
+                className='object-cover w-full aspect-video'
+                width={500}
+                height={300}
+                src='/featured-5.jfif'
+                alt="Featured Image" 
+              />
+              
+            </div>
+            <div
+              
+              className='w-full md:w-1/2 lg:w-1/3 p-4 space-y-3 flex flex-col items-start'
+            >
+              
+              <div className='flex items-center space-x-2'>
+                <Image
+                  src="/featured-logo.png"
+                  className='rounded-full bg-black'
+                  height={60}
+                  width={60}
+                  alt=""
+                />
+                <div>
+                  <h3 className='font-semibold'>Only Wheels</h3>
+                  <span className='text-sm mr-2'>@onlyWheels</span>
+                </div>
+                <img className='pb-5 ' src="/tick-icon.png" alt="" />
+                <span className='text-xs sm:text-sm relative left-20 bottom-4'>2 hours ago</span>
+              </div>
+
+              <p className='max-w-full text-start text-xs sm:text-sm pr-2'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <Image
+                className='object-cover w-full aspect-video'
+                width={500}
+                height={300}
+                src='/featured-6.jfif'
+                alt="Featured Image" 
+              />
+              
+            </div>
+         
         </div>
         <Button className='custom-bg rounded-full px-5 mt-5'>See More</Button>
       </div>
