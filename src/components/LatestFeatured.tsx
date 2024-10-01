@@ -18,9 +18,9 @@ const LatestFeatured = () => {
               key={index}
               className='w-full md:w-1/2 lg:w-1/3 p-4 space-y-3 flex flex-col items-start'
             >
-              <Link href='#'> 
+              
               <div className='flex items-center space-x-2'>
-                <img
+                <Image
                   src="/featured-logo.png"
                   className='rounded-full bg-black'
                   height={60}
@@ -45,7 +45,7 @@ const LatestFeatured = () => {
                 src={item.image}
                 alt="Featured Image" 
               />
-              </Link>
+              
             </div>
           ))}
         </div>
