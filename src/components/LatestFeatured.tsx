@@ -13,7 +13,7 @@ const LatestFeatured = () => {
         </h1>
 
         <div className='flex flex-wrap justify-center gap-8 mt-10'>
-          {LATEST_FEATURED.map((featured, index) => (
+          {LATEST_FEATURED.map((item, index) => (
             <div
               key={index}
               className='w-full md:w-1/2 lg:w-1/3 p-4 space-y-3 flex flex-col items-start'
@@ -42,8 +42,7 @@ const LatestFeatured = () => {
                 className='object-cover w-full aspect-video'
                 width={500}
                 height={300}
-               
-                src={featured.image}
+                src={item.image}
                 alt="Featured Image" 
               />
               </Link>
