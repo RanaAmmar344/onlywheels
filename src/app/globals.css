@@ -153,5 +153,10 @@ bottom: 88px;
   right: 60px;
  }
  
+ .gallery-clip{
+
+  position: relative;
+  left: 90px;
+ }
       
   }

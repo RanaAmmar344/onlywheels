@@ -3,6 +3,7 @@ import React from 'react'
 import { Button } from './ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
+import videoicon from '../../public/Vector.png'
 
 const LatestFeatured = () => {
   return (
@@ -32,19 +33,39 @@ const LatestFeatured = () => {
                   <span className='text-sm mr-2'>@onlyWheels</span>
                 </div>
                 <img className='pb-5 ' src="/tick-icon.png" alt="" />
-                <span className='text-xs sm:text-sm relative left-20 bottom-4'>2 hours ago</span>
+                <span className='text-xs sm:text-sm relative left-20 bottom-4 mr-8 '>2 hours ago</span>
               </div>
 
               <p className='max-w-full text-start text-xs sm:text-sm pr-2'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <Image
-                className='object-cover w-full aspect-video'
-                width={500}
-                height={300}
-                src={item.image}
-                alt="Featured Image" 
-              />
+            
+
+              <div className='relative'>
+ 
+  <Image
+    className='object-cover w-full aspect-video'
+    width={500}
+    height={300}
+    src={item.image}
+    alt="Featured Image" 
+  />
+
+  
+  <div className='absolute inset-0 flex items-center justify-center'>
+    <Image 
+      src={videoicon}
+      height={40}
+      width={40}
+      alt='video icon'
+      className='video-icon'
+    />
+  </div>
+</div>
+
+               
+                
+                
               
             </div>
           ))}

@@ -66,15 +66,17 @@ const OurGallery = () => {
                     {currentItems.map((item, index) => (
                         <div
                             key={index}
-                            className=" relative left-16    w-[280px] h-full md:basis-1/2 lg:basis-1/4  rounded-xl overflow-hidden"
+                            className=" relative  w-[280px] h-full md:basis-1/2 lg:basis-1/4  rounded-xl overflow-hidden"
                         >
-                            
+                            <div className="gallery-clip" > 
+
+                           
                             <video
                                 src={item.video}
                                 autoPlay
                                 muted
                                 loop
-                                className="object-cover w-[243px] h-[420px] rounded-xl"
+                                className="object-cover  w-[243px] h-[420px] rounded-xl"
                             />
 
                            
@@ -86,6 +88,8 @@ const OurGallery = () => {
                                 />
                                 <p className="text-white font-semibold">{item.name}</p>
                             </div>
+                            </div>
+
                         </div>
                     ))}
                 </div>
