@@ -33,7 +33,7 @@ const LatestFeatured = () => {
                   <span className='text-sm mr-2'>@onlyWheels</span>
                 </div>
                 <img className='pb-5 ' src="/tick-icon.png" alt="" />
-                <span className='text-xs sm:text-sm relative left-20 bottom-4 mr-8 '>2 hours ago</span>
+                <span className='text-xs sm:text-sm relative left-20 bottom-4 '>2 hours ago</span>
               </div>
 
               <p className='max-w-full text-start text-xs sm:text-sm pr-2'>

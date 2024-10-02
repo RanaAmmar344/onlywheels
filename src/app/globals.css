@@ -11,6 +11,16 @@
   width: auto ;
   
 }
+.about-container{
+  background-image: linear-gradient(to top, rgb(0,0,0,0.7),rgb(0,0,0,0.4)), url('https://get.wallhere.com/photo/1920x1080-px-black-car-Lamborghini-rims-1069726.jpg');
+  width: 100%;
+ height: 1024px ;
+ background-size: cover;
+position: relative;
+ bottom: 18px;
+
+
+}
 
 
 html, body {

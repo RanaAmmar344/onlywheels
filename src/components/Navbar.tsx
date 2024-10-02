@@ -28,9 +28,9 @@ const Navbar = () => {
                     />
                     <div className='hidden lg:flex bg-black rounded-full px-2 '>
                         <ul className='flex items-center cursor-pointer gap-4'>
-                            <li className=' p-1 hover:border-b-2 hover:border-red-800' >Home</li>
-                            <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li>
-                            <li className='p-1 hover:border-b-2 hover:border-red-800'>Road Map</li>
+                          <Link  href='/' >  <li className=' p-1 hover:border-b-2 hover:border-red-800' >Home</li></Link> 
+                          <Link href='/about'> <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li></Link> 
+                           <li className='p-1 hover:border-b-2 hover:border-red-800'>Road Map</li>
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>Affiliate Area</li>
                             <li className='p-1  hover:border-b-2 hover:border-red-800'>Membership</li>
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>FAQ</li>
