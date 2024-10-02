@@ -56,8 +56,8 @@ const WhyChoseUs = () => {
 
       </div>
 
-      {/* Title "WHY CHOOSE US?" */}
-      <h1 className=' text-transparent bg-clip-text bg-[linear-gradient(176.13deg,_rgba(0,_0,_0,_0.115)_-79.58%,_rgba(188,_0,_13,_0.46)_56.68%)] text-5xl sm:text-7xl lg:text-9xl member-res text-center  lg:mt-80 pt-20'>
+      
+      <h1 className=' text-transparent bg-clip-text bg-[linear-gradient(176.13deg,_rgba(0,_0,_0,_0.115)_-79.58%,_rgba(188,_0,_13,_0.46)_56.68%)] text-5xl sm:text-7xl lg:text-9xl member-res text-center  lg:mt-80 pt-40'>
         WHY CHOOSE US?
       </h1>
     </div>

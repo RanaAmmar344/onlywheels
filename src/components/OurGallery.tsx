@@ -102,8 +102,8 @@ const OurGallery = () => {
                 </button>
             </div>
 
-            <div className="flex items-center justify-center sm:px-10 mt-60">
-                <Image src={insta} height={900} alt="Follow us on Instagram" />
+            <div className=" mr-8  mt-60">
+                <Image src={insta} height={800} alt="Follow us on Instagram" />
             </div>
         </div>
     );
