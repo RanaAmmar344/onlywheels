@@ -7,6 +7,7 @@ import { Button } from './ui/button'
 
 import { Menu, X } from "lucide-react"
 
+
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false)
     const toggleNavbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
             <nav className='fixed top-2 z-50 w-screen  mx-10 nav-mb' >
                 <div className='container  flex items-center justify-between rounded-lg text-white py-10 px-5'>
                     <Image
-                    className=''
+                        className=''
                         src={logo}
                         width={160.78}
                         height={36.79}
@@ -28,9 +29,9 @@ const Navbar = () => {
                     />
                     <div className='hidden lg:flex bg-black rounded-full px-2 '>
                         <ul className='flex items-center cursor-pointer gap-4'>
-                          <Link  href='/' >  <li className=' p-1 hover:border-b-2 hover:border-red-800' >Home</li></Link> 
-                          <Link href='/about'> <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li></Link> 
-                         <Link href='/roadmap'>  <li className='p-1 hover:border-b-2 hover:border-red-800'>Road Map</li></Link> 
+                            <Link href='/' >  <li className=' p-1 hover:border-b-2 hover:border-red-800' >Home</li></Link>
+                            <Link href='/about'> <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li></Link>
+                            <Link href='/roadmap'>  <li className='p-1 hover:border-b-2 hover:border-red-800'>Road Map</li></Link>
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>Affiliate Area</li>
                             <li className='p-1  hover:border-b-2 hover:border-red-800'>Membership</li>
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>FAQ</li>
@@ -58,9 +59,9 @@ const Navbar = () => {
 
                         <div className='lg:hidden mr-20 bg-black rounded-10   pb-6 '>
                             <ul className='flex flex-col text-white items-center p-4 gap-4'>
-                                <li className='hover:text-red-800' >Home</li>
-                                <li className='hover:text-red-800'>About Us</li>
-                                <li className='hover:text-red-800'>Road Map</li>
+                                <Link href='/' >  <li className=' p-1 hover:border-b-2 hover:border-red-800' >Home</li></Link>
+                                <Link href='/about'> <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li></Link>
+                                <Link href='/roadmap'>  <li className='p-1 hover:border-b-2 hover:border-red-800'>Road Map</li></Link>
                                 <li className='hover:text-red-800'>Affiliate Area</li>
                                 <li className='hover:text-red-800'>Membership</li>
                                 <li className='hover:text-red-800'>FAQ</li>

@@ -5,7 +5,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className=' w-screen mx-auto  overflow-hidden  '>
-      <div className='about-container text-center'>
+      <div className='about-container text-center pb-20'>
         <Navbar />
         <div className=' py-48 '>
           <h1 className='font-bai-jamjuree text-[50px] font-bold leading-[68px] text-center custom-color'>
