@@ -16,7 +16,7 @@ const Navbar = () => {
     };
 
     return (
-        <div>
+        <div className='w-full mx-auto flex  items-center justify-center'>
             <nav className='fixed top-2 z-50 w-screen  mx-10 nav-mb' >
                 <div className='container  flex items-center justify-between rounded-lg text-white py-10 px-5'>
                     <Image

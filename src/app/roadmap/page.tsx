@@ -9,7 +9,7 @@ const Roadmap = () => {
         <div className='w-full mx-auto bg-black'>
             <div className='road-map-container text-center'>
                 <Navbar />
-                <div className='py-20 md:py-48'>
+                <div className='py-20 relative top-16    md:py-48'>
                     <h1 className='font-bai-jamjuree custom-color text-[50px] font-bold leading-[68px] text-center'>
                         ROADMAP
                     </h1>
@@ -44,11 +44,11 @@ const Roadmap = () => {
                         height={400}
                         alt=''
                     />
-                    <div className='pt-10 mx-5 md:mx-10 my-10'>
-                        <span className='font-bai-jamjuree text-[49.59px] font-semibold leading-[58px] text-left mb-4'>
+                    <div className='pt-10 mx-6 md:mx-10 my-10'>
+                        <span className='font-bai-jamjuree lg:text-[49.59px] font-semibold leading-[58px] text-left text-3xl   mb-4'>
                             The Day You Sign Up
                         </span>
-                        <p className='font-bai-jamjuree text-[30px] font-medium leading-[41px] text-left'>
+                        <p className='font-bai-jamjuree lg:text-[30px] text-2xl  font-medium leading-[41px] text-left'>
                             Immediately gain 1 entry into <br /><span className='text-[30px] font-bold'>EVERY SINGLE</span> giveaway we do!
                         </p>
                         <Image
@@ -73,11 +73,11 @@ const Roadmap = () => {
 
                 {/* Section 2 */}
                 <div className='flex flex-col md:flex-row items-center justify-around relative bottom-0 md:bottom-60'>
-                    <div className='mx-5 md:mx-10'>
-                        <span className='font-bai-jamjuree text-[49.59px] font-semibold leading-[58px] text-left mb-4'>
+                    <div className='mx-6 md:mx-10'>
+                        <span className='font-bai-jamjuree lg:text-[49.59px] font-semibold leading-[58px] text-3xl text-left mb-4'>
                             3 Months = 3 Entries
                         </span>
-                        <p className='font-bai-jamjuree text-[30px] font-medium leading-[41px] text-left'>
+                        <p className='font-bai-jamjuree lg:text-[30px] font-medium leading-[41px] text-2xl text-left'>
                             Automatically gain 3 entries <br /> into every single giveaway <br /> we do!
                         </p>
                         <Image
@@ -89,7 +89,7 @@ const Roadmap = () => {
                         />
                     </div>
                     <Image
-                        className='mr-16 md:mr-20'
+                        className='mx-auto md:mr-20'
                         src='/Ticket-2.png'
                         width={470}
                         height={400}
@@ -109,17 +109,17 @@ const Roadmap = () => {
                 {/* Section 3 */}
                 <div className='flex flex-col md:flex-row items-center justify-around my-10 md:my-20 relative bottom-0 md:bottom-80'>
                     <Image
-                        className='mr-16 md:mr-20'
+                        className='mx-auto md:mr-20'
                         src='/Ticket-3.png'
                         width={470}
                         height={400}
                         alt=''
                     />
-                    <div className='pt-10 mx-5 md:mx-10'>
-                        <span className='font-bai-jamjuree text-[49.59px] font-semibold leading-[58px] text-left mb-4'>
+                    <div className='pt-10 mx-6  md:mx-20'>
+                        <span className='font-bai-jamjuree lg:text-[49.59px] font-semibold leading-[58px] text-3xl text-left mb-4'>
                             6 Months = 6 Entries
                         </span>
-                        <p className='font-bai-jamjuree text-[30px] font-medium leading-[41px] text-left'>
+                        <p className='font-bai-jamjuree lg:text-[30px] font-medium leading-[41px] text-2xl text-left'>
                             + Receive a FREE GIFT!
                         </p>
                         <Image
@@ -143,11 +143,11 @@ const Roadmap = () => {
 
                 {/* Section 4 */}
                 <div className='flex flex-col md:flex-row items-center justify-around mb-20 md:mb-32 relative bottom-0 md:bottom-96'>
-                    <div className='pt-10 mx-5 md:mx-10'>
-                        <span className='font-bai-jamjuree text-[49.59px] font-semibold leading-[58px] text-left flex items-start justify-start mb-4'>
+                    <div className='pt-10 mx-6 md:mx-10'>
+                        <span className='font-bai-jamjuree lg:text-[49.59px] font-semibold leading-[58px] text-left text-3xl mb-4'>
                             12 Months = 12 Entries
                         </span>
-                        <p className='font-bai-jamjuree text-[30px] font-medium leading-[41px] text-left'>
+                        <p className='font-bai-jamjuree lg:text-[30px] font-medium leading-[41px] text-2xl text-left'>
                             + Receive another FREE GIFT!
                         </p>
                         <Image
@@ -159,7 +159,7 @@ const Roadmap = () => {
                         />
                     </div>
                     <Image
-                        className='mr-16 md:mr-20'
+                        className='mx-auto md:mr-20'
                         src='/Ticket-4.png'
                         width={470}
                         height={400}
@@ -176,3 +176,4 @@ const Roadmap = () => {
 }
 
 export default Roadmap
+    
