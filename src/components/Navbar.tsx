@@ -30,7 +30,7 @@ const Navbar = () => {
                         <ul className='flex items-center cursor-pointer gap-4'>
                           <Link  href='/' >  <li className=' p-1 hover:border-b-2 hover:border-red-800' >Home</li></Link> 
                           <Link href='/about'> <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li></Link> 
-                           <li className='p-1 hover:border-b-2 hover:border-red-800'>Road Map</li>
+                         <Link href='/roadmap'>  <li className='p-1 hover:border-b-2 hover:border-red-800'>Road Map</li></Link> 
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>Affiliate Area</li>
                             <li className='p-1  hover:border-b-2 hover:border-red-800'>Membership</li>
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>FAQ</li>
