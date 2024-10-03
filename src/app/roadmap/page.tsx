@@ -39,7 +39,7 @@ const Roadmap = () => {
                 <div className='flex flex-col md:flex-row items-center justify-around my-10 md:my-20'>
                     <Image
                         className='mr-16 md:mr-20'
-                        src='/Ticket1.png'
+                        src='/Ticket-1.png'
                         width={470}
                         height={400}
                         alt=''
@@ -90,7 +90,7 @@ const Roadmap = () => {
                     </div>
                     <Image
                         className='mr-16 md:mr-20'
-                        src='/Ticket2.png'
+                        src='/Ticket-2.png'
                         width={470}
                         height={400}
                         alt=''
@@ -110,7 +110,7 @@ const Roadmap = () => {
                 <div className='flex flex-col md:flex-row items-center justify-around my-10 md:my-20 relative bottom-0 md:bottom-80'>
                     <Image
                         className='mr-16 md:mr-20'
-                        src='/Ticket3.png'
+                        src='/Ticket-3.png'
                         width={470}
                         height={400}
                         alt=''
@@ -160,7 +160,7 @@ const Roadmap = () => {
                     </div>
                     <Image
                         className='mr-16 md:mr-20'
-                        src='/Ticket4.png'
+                        src='/Ticket-4.png'
                         width={470}
                         height={400}
                         alt=''
