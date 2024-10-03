@@ -16,8 +16,8 @@ const Navbar = () => {
     };
 
     return (
-        <div className='w-full mx-auto flex  items-center justify-center'>
-            <nav className='fixed top-2 z-50 w-screen  mx-10 nav-mb' >
+        <div className='w-full mx-auto flex items-center justify-center'>
+            <nav className='fixed top-2 z-50 w-screen  nav-mb' >
                 <div className='container  flex items-center justify-between rounded-lg text-white py-10 px-5'>
                     <Image
                         className=''
@@ -57,7 +57,7 @@ const Navbar = () => {
                     mobileDrawerOpen && (
                         // ------------------------------mobile view----------------------------
 
-                        <div className='lg:hidden mr-20 bg-black rounded-10   pb-6 '>
+                        <div className='lg:hidden mx-4 bg-black rounded-4 rounded-2xl   pb-6 '>
                             <ul className='flex flex-col text-white items-center p-4 gap-4'>
                                 <Link href='/' >  <li className=' p-1 hover:border-b-2 hover:border-red-800' >Home</li></Link>
                                 <Link href='/about'> <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li></Link>
