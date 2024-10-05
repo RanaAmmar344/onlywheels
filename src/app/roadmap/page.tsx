@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Footer from '@/components/Footer'
 
 
+
 const Roadmap = () => {
     return (
         <div className='w-full mx-auto bg-black'>

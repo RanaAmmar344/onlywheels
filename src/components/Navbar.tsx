@@ -33,7 +33,7 @@ const Navbar = () => {
                             <Link href='/about'> <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li></Link>
                             <Link href='/roadmap'>  <li className='p-1 hover:border-b-2 hover:border-red-800'>Road Map</li></Link>
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>Affiliate Area</li>
-                            <li className='p-1  hover:border-b-2 hover:border-red-800'>Membership</li>
+                          <Link href='/membership'> <li className='p-1  hover:border-b-2 hover:border-red-800'>Membership</li></Link>
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>FAQ</li>
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>Posts</li>
                             <li className='p-1 hover:border-b-2 hover:border-red-800'>Posts</li>
@@ -63,7 +63,7 @@ const Navbar = () => {
                                 <Link href='/about'> <li className='p-1 hover:border-b-2 hover:border-red-800' >About Us</li></Link>
                                 <Link href='/roadmap'>  <li className='p-1 hover:border-b-2 hover:border-red-800'>Road Map</li></Link>
                                 <li className='hover:text-red-800'>Affiliate Area</li>
-                                <li className='hover:text-red-800'>Membership</li>
+                                <Link href='/membership'> <li className='p-1  hover:border-b-2 hover:border-red-800'>Membership</li></Link>
                                 <li className='hover:text-red-800'>FAQ</li>
                                 <li className='hover:text-red-800'>Posts</li>
                                 <li className='hover:text-red-800'>Posts</li>

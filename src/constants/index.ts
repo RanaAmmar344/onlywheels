@@ -8,7 +8,7 @@
 //   { title: "Reviews", url: "#" },
 //   { title: "Faq", url: "#" },
 
-  
+
 // ];
 
 // export const HERO = {
@@ -128,72 +128,137 @@
 
 // export const ABOUT_US_TEXT = `At RealEs, we are committed to providing exceptional real estate services to our clients. With years of experience in the industry, our team of expert agents is dedicated to helping you achieve your real estate goals. Whether you're buying, selling, renting, or looking for property management services, we're here to assist you every step of the way. Our mission is to make your real estate experience as seamless and stress-free as possible. Contact us today to learn more about how we can help you with all your real estate needs.`;
 
-// export const TESTIMONIALS = [
-//   {
-//     name: "Jane Doe",
-//     instagram: "@jane.doe",
-//     feedback:
-//       "Amazing service! The team went above and beyond to find me the perfect home. I couldn't be happier!",
-//     city_country: "New York, USA",
-//     image: "/profile-pictures/user1.jpg",
-//   },
-//   {
-//     name: "John Smith",
-//     instagram: "@john.smith",
-//     feedback:
-//       "I was impressed by their professionalism and dedication. Highly recommend their services! I'm so grateful for their expertise.",
-//     city_country: "London, UK",
-//     image: "/profile-pictures/user2.jpg",
-//   },
-//   {
-//     name: "Maria Garcia",
-//     instagram: "@maria.g",
-//     feedback:
-//       "Excellent experience working with them. They made the whole process smooth and stress-free.",
-//     city_country: "Madrid, Spain",
-//     image: "/profile-pictures/user3.jpg",
-//   },
-//   {
-//     name: "Ahmed Hassan",
-//     instagram: "@ahmed.hassan",
-//     feedback:
-//       "Outstanding service. They listened to my needs and found me the perfect property.",
-//     city_country: "Cairo, Egypt",
-//     image: "/profile-pictures/user4.jpg",
-//   },
-//   {
-//     name: "Emily Wang",
-//     instagram: "@emily.w",
-//     feedback:
-//       "Exceptional service and attention to detail. I would definitely use their services again.",
-//     city_country: "Shanghai, China",
-//     image: "/profile-pictures/user5.jpg",
-//   },
-//   {
-//     name: "Luca Rossi",
-//     instagram: "@luca.r",
-//     feedback:
-//       "Professional and knowledgeable team. They helped me find my dream home in Milan.",
-//     city_country: "Milan, Italy",
-//     image: "/profile-pictures/user6.jpg",
-//   },
-//   {
-//     name: "Sarah Johnson",
-//     instagram: "@sarah.j",
-//     feedback:
-//       "I'm so grateful for their expertise. They made the whole buying process a breeze.",
-//     city_country: "Sydney, Australia",
-//     image: "/profile-pictures/user7.jpg",
-//   },
-//   {
-//     name: "Juan Perez",
-//     instagram: "@juan.p",
-//     feedback:
-//       "Impressive service. They found me a property that exceeded my expectations.",
-//     city_country: "Mexico City, Mexico",
-//     image: "/profile-pictures/user8.jpg",
-//   },
-// ];
+export const MEMBERSHIP = [
+  {
+    name: "BRONZE",
+    offer:
+      "First month Offer Then $9.99 Billed Monthly (cancel anytime) ",
+    rate: "$0",
+    steps: [
+      {
+
+        text: "3x Accumulating Free Entry into every Promotion Giveaway",
+      },
+      {
+
+        text: "5% off Future Merchandise",
+      },
+      {
+
+        text: "Access to Future events",
+      },
+      {
+
+        text: "Access to Posts Page",
+      },
+      {
+
+        text: "Cancel at ANYTIME!",
+      },
+    ],
+  },
+  {
+    name: "SILVER",
+    offer:
+      "First month Offer Then $19.99 Billed Monthly (cancel anytime) ",
+      rate: "$5.0",
+    steps: [
+      {
+
+        text: "10x Accumulating Free Entry into every Promotion Giveaway",
+      },
+      {
+
+        text: "Membership Package: stickers, car air freshener",
+      },
+      {
+
+        text: "10% of future merchandise",
+      },
+      {
+
+        text: "Access to future Events",
+      },
+      {
+
+        text: "Access to Posts Page",
+      },
+      {
+
+        text: "Cancel at ANYTIME!",
+      },
+    ],
+  },
+  {
+    name: "GOLD",
+    offer:
+      "First month Offer Then $49.99 Billed Monthly (cancel anytime) ",
+      rate: "$12.5",
+    steps: [
+      {
+
+        text: "25x Accumulating Free Entry into every Promotion Giveaway",
+      },
+      {
+
+        text: "Membership Package: sticker, car air freshener, Lanyard",
+      },
+      {
+
+        text: "20% of future merchandise",
+      },
+      {
+
+        text: "Access to future Events",
+      },
+      {
+
+        text: "Access to Posts Page",
+      },
+      {
+
+        text: "Cancel at ANYTIME!",
+      },
+    ],
+  },
+  {
+    name: "PLATINIUM",
+    offer:
+      "First month Offer Then $49.99 Billed Monthly (cancel anytime) ",
+      rate: "$12.5",
+      dollar:"S1",
+    steps: [
+      {
+
+        text: "50x Accumulating Free Entry into every Promotion Giveaway",
+      },
+      {
+
+        text: "Membership Package: sticker, car air freshener, Lanyard",
+      },
+      {
+
+        text: "25% of future merchandise",
+      },
+      {
+
+        text: "Access to future Events",
+      },
+      {
+
+        text: "Access to Posts Page",
+      },
+      {
+
+        text: "Cancel at ANYTIME!",
+      },
+    ],
+  },
+
+];
+
+
+
 
 // export const FAQ = [
 //   {
@@ -293,9 +358,9 @@ export const WELCOME_DATA = [
     id: 5,
     image: "/welcome5.jpg",
   }
- 
+
 ];
-export const LATEST_FEATURED= [
+export const LATEST_FEATURED = [
   {
     id: 1,
     image: "/fd-1.jpg",
@@ -321,73 +386,73 @@ export const LATEST_FEATURED= [
     id: 6,
     image: "/fd-6.jpg",
   }
- 
+
 ];
-export const OUR_GALLERY= [
+export const OUR_GALLERY = [
   {
     id: 1,
     video: "/gallery1.mp4",
     profile: "/gp1.png",
-    name:"marks willom"
+    name: "marks willom"
   },
   {
     id: 2,
     video: "/gallery2.mp4",
-     profile: "/gp2.png",
-    name:"jarry marry"
+    profile: "/gp2.png",
+    name: "jarry marry"
   },
   {
     id: 3,
     video: "/gallery3.mp3",
-     profile: "/gp3.png",
-    name:"tom boy"
+    profile: "/gp3.png",
+    name: "tom boy"
   },
   {
     id: 4,
     video: "/gallery4.mp4",
-     profile: "/gp4.png",
-    name:"romeo jen"
+    profile: "/gp4.png",
+    name: "romeo jen"
   }
   ,
   {
     id: 5,
     video: "/gallery5.mp4",
     profile: "/gp5.png",
-    name:"jack tom"
+    name: "jack tom"
   },
   {
     id: 6,
     video: "/gallery6.mp4",
-     profile: "/gp6.png",
-    name:"rana ammar"
+    profile: "/gp6.png",
+    name: "rana ammar"
   },
   {
     id: 7,
     video: "/gallery7.mp4",
-     profile: "/gp6.png",
-    name:"coder pro"
+    profile: "/gp6.png",
+    name: "coder pro"
   },
   {
     id: 8,
     video: "/gallery8.mp4",
-     profile: "/gp8.png",
-    name:"high speed"
+    profile: "/gp8.png",
+    name: "high speed"
   },
   {
     id: 9,
     video: "/gallery9.mp4",
-     profile: "/gp9.png",
-    name:"hamster dee"
+    profile: "/gp9.png",
+    name: "hamster dee"
   },
   {
     id: 10,
     video: "/gallery10.mp4",
     profile: "/gp10.png",
-    name:"jack tom"
+    name: "jack tom"
   },
- 
+
 ];
-// export const GALLERY_PROFILE= [
+
 //   {
 //     id: 1,
 //     profile: "/gp1.jfif",
@@ -419,7 +484,7 @@ export const OUR_GALLERY= [
 //     profile: "/gf6.jfif",
 //     name:"rana ammar"
 //   }
- 
+
 // ];
 
 
@@ -451,7 +516,7 @@ in the near future…`,
         { title: "Terms Conditions", url: "#" },
       ],
     },
-  
- 
+
+
   ],
 };

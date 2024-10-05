@@ -138,6 +138,66 @@ position: relative;
 
 }
 
+
+.member-card {
+  position: relative; 
+  width: 306.52px; 
+  height: 1021.75px; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  background-image: url('../../public/members-card-1.png'); /* Background image URL */
+  background-size: 755.34px 1566.94px; 
+  background-position: center ; 
+  background-repeat: no-repeat; 
+  
+}
+
+.member-main-card-2{
+  position: relative; 
+  width: 306.52px; 
+  height: 1021.75px; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  background-image: url('../../public/member-card-2.png'); /* Background image URL */
+  background-size: 755.34px 1566.94px; 
+  background-position: center ; 
+  background-repeat: no-repeat; 
+ 
+
+}
+.member-main-card-3{
+  position: relative; 
+  width: 306.52px; 
+  height: 1021.75px; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  background-image: url('../../public/member-card-3.png'); /* Background image URL */
+  background-size: 755.34px 1866.94px; 
+  background-position: center ; 
+  background-repeat: no-repeat; 
+ 
+
+}
+.member-main-card-4{
+  position: relative; 
+  width: 306.52px; 
+  height: 1021.75px; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  background-image: url('../../public/member-card-4.png'); /* Background image URL */
+  background-size: 755.34px 1866.94px; 
+  background-position: center ; 
+  background-repeat: no-repeat; 
+ 
+
+}
+
+
+
+
+
+
+
 /* custom Responsive Query */
 
 @media (max-width: 500px) {
