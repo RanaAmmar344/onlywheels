@@ -259,81 +259,41 @@ export const MEMBERSHIP = [
 
 
 
-// export const FAQ = [
-//   {
-//     question: "Can I schedule a property viewing?",
-//     answer:
-//       "Yes, you can schedule a property viewing by contacting our customer service team. They will assist you in arranging a convenient time for the viewing.",
-//     value: "faq-1",
-//   },
-//   {
-//     question: "What is the process for renting a property?",
-//     answer:
-//       "To rent a property, you will need to fill out a rental application form and provide necessary documentation such as proof of income, identification, and references. Once your application is approved, you can sign the lease agreement and move into the property.",
-//     value: "faq-2",
-//   },
-//   {
-//     question: "Do you offer property management services?",
-//     answer:
-//       "Yes, we offer property management services for landlords and property owners. Our services include tenant screening, rent collection, maintenance, and more.",
-//     value: "faq-3",
-//   },
-//   {
-//     question: "What types of properties do you have available?",
-//     answer:
-//       "We have a variety of properties available, including apartments, houses, condos, and commercial properties. You can browse our listings online or contact us for more information.",
-//     value: "faq-4",
-//   },
-//   {
-//     question: "How can I list my property for sale?",
-//     answer:
-//       "To list your property for sale, you can contact our real estate agents who will assist you in the listing process. They will help you market your property to potential buyers and negotiate the sale.",
-//     value: "faq-5",
-//   },
-//   {
-//     question: "Do you offer financing options for property purchases?",
-//     answer:
-//       "Yes, we work with various financial institutions to offer financing options for property purchases. Our agents can help you explore these options and choose the best one for your needs.",
-//     value: "faq-6",
-//   },
-//   {
-//     question: "What are your fees for selling a property?",
-//     answer:
-//       "Our fees for selling a property vary depending on the type of property and the services required. You can discuss your needs with our agents, and they will provide you with a detailed breakdown of the fees involved.",
-//     value: "faq-7",
-//   },
-//   {
-//     question: "How long does it take to sell a property?",
-//     answer:
-//       "The time it takes to sell a property can vary depending on market conditions, location, and other factors. Our agents will work with you to develop a marketing strategy to sell your property as quickly as possible.",
-//     value: "faq-8",
-//   },
-//   {
-//     question: "What is your refund policy?",
-//     answer:
-//       "Our refund policy varies depending on the service provided. Please contact our customer service team for more information about our refund policy.",
-//     value: "faq-9",
-//   },
-//   {
-//     question:
-//       "Can I rent out my property if I am still paying off the mortgage?",
-//     answer:
-//       "Yes, you can rent out your property if you are still paying off the mortgage. However, you will need to inform your mortgage lender and ensure that your mortgage agreement allows for rental income.",
-//     value: "faq-10",
-//   },
-//   {
-//     question: "Do you offer short-term rentals?",
-//     answer:
-//       "Yes, we offer short-term rentals for vacation homes, corporate housing, and other purposes. You can browse our listings or contact us for more information about available short-term rental properties.",
-//     value: "faq-11",
-//   },
-//   {
-//     question: "How can I get started with buying or selling a property?",
-//     answer:
-//       "To get started with buying or selling a property, you can contact our customer service team or visit our office to speak with one of our agents. They will guide you through the process and answer any questions you may have.",
-//     value: "faq-12",
-//   },
-// ];
+export const FAQ = [
+  {
+    question: "What is your return policy?",
+    answer:
+      "We offer a 15-day return window for a full refund or exchange on unused items. Returns must include original packaging and proof of purchase for processing.",
+    value: "faq-1",
+  },
+  {
+    question: "Do you offer international shipping?",
+    answer:
+      "yes, you will need to fill out a rental application form and provide necessary documentation such as proof of income .",
+    value: "faq-2",
+  },
+  {
+    question: "What if I receive a damaged or defective product?",
+    answer:
+      "Yes, we offer Cars management services for landlords and property owners. Our services include tenant screening, rent collection, maintenance, and more.",
+    value: "faq-3",
+  },
+  {
+    question: "Are the product colors on the website accurate?",
+    answer:
+      "We have a variety of properties available, including vhichle, houses, condos, and commercial properties. You can browse our listings online or contact us for more information.",
+    value: "faq-4",
+  },
+  {
+    question: "How do I contact customer support?",
+    answer:
+      "We have a variety of products available, including apartments, houses, condos, and commercial properties. You can browse our listings online or contact us for more information.",
+    value: "faq-5",
+  },
+
+
+  
+];
 
 export const WELCOME_DATA = [
   {
@@ -451,40 +411,6 @@ export const OUR_GALLERY = [
   },
 
 ];
-
-//   {
-//     id: 1,
-//     profile: "/gp1.jfif",
-//     name:"marks willom"
-//   },
-//   {
-//     id: 2,
-//     profile: "/gp2.jfif",
-//     name:"jarry marry"
-//   },
-//   {
-//     id: 3,
-//     profile: "/gp3.jfif",
-//     name:"tom boy"
-//   },
-//   {
-//     id: 4,
-//     profile: "/gf4.jfif",
-//     name:"romeo jen"
-//   }
-//   ,
-//   {
-//     id: 5,
-//     profile: "/gf5.jfif",
-//     name:"jack tom"
-//   },
-//   {
-//     id: 6,
-//     profile: "/gf6.jfif",
-//     name:"rana ammar"
-//   }
-
-// ];
 
 
 export const FOOTER = {
