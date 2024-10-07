@@ -19,7 +19,7 @@ html, body {
   
 }
 .about-container{
-  background-image: linear-gradient(to top, rgb(0,0,0,0.7),rgb(0,0,0,0.4)), url('https://get.wallhere.com/photo/1920x1080-px-black-car-Lamborghini-rims-1069726.jpg');
+  background-image: linear-gradient(to top, rgb(0,0,0,0.7),rgb(0,0,0,0.4)), url('../../public/about.jfif');
   width: 100%;
  height: auto ;
  background-size: cover;
@@ -29,7 +29,7 @@ position: relative;
 
 }
 .road-map-container{
-  background-image: linear-gradient(180deg, #000000 , rgba(0, 0, 0, 0.61) , #000000 ), url('../../public/roadmap.jpg');
+  background-image: linear-gradient(180deg, #000000 , rgba(0, 0, 0, 0.61) , #000000 ), url('../../public/roadmap.jfif');
   
   width: 100%;
  height: 1024px ;
@@ -141,12 +141,12 @@ position: relative;
 
 .member-card {
   position: relative; 
-  width: 306.52px; 
-  height: 1021.75px; 
+  width: 306.52px  ; 
+  height: 1003.77px; 
   border-radius: 12px; 
-  overflow: hidden; 
-  background-image: url('../../public/members-card-1.png'); /* Background image URL */
-  background-size: 755.34px 1566.94px; 
+   
+  background-image: url('../../public/members-card-1.png'); 
+  background-size: 895.34px 1666.94px; 
   background-position: center ; 
   background-repeat: no-repeat; 
   
@@ -154,11 +154,11 @@ position: relative;
 
 .member-main-card-2{
   position: relative; 
-  width: 306.52px; 
-  height: 1021.75px; 
+  width: 306.52px  ; 
+  height: 1003.77px; 
   border-radius: 12px; 
-  overflow: hidden; 
-  background-image: url('../../public/member-card-2.png'); /* Background image URL */
+  
+  background-image: url('../../public/member-card-2.png'); 
   background-size: 755.34px 1566.94px; 
   background-position: center ; 
   background-repeat: no-repeat; 
@@ -167,11 +167,10 @@ position: relative;
 }
 .member-main-card-3{
   position: relative; 
-  width: 306.52px; 
-  height: 1021.75px; 
+  width: 306.52px  ; 
+  height: 1003.77px; 
   border-radius: 12px; 
-  overflow: hidden; 
-  background-image: url('../../public/member-card-3.png'); /* Background image URL */
+  background-image: url('../../public/member-card-3.png'); 
   background-size: 755.34px 1866.94px; 
   background-position: center ; 
   background-repeat: no-repeat; 
@@ -180,11 +179,10 @@ position: relative;
 }
 .member-main-card-4{
   position: relative; 
-  width: 306.52px; 
-  height: 1021.75px; 
+  width: 306.52px  ; 
+  height: 1003.77px; 
   border-radius: 12px; 
-  overflow: hidden; 
-  background-image: url('../../public/member-card-4.png'); /* Background image URL */
+  background-image: url('../../public/member-card-4.png'); 
   background-size: 755.34px 1866.94px; 
   background-position: center ; 
   background-repeat: no-repeat; 
@@ -192,7 +190,61 @@ position: relative;
 
 }
 
+.mb-text{
+  color: rgba(239, 181, 82, 1);
+  ;
+}
+.mb-text-2{
+  background-color: rgba(239, 181, 82, 1);
+  ;
+}
 
+.moved-element {
+  position: absolute;
+   top: -17px;
+  left: 74%;  
+  transform: translateX(-50%); 
+  width: 120px; 
+  height: auto; 
+  max-width: none; 
+
+ 
+}
+.element-text {
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  
+  
+  
+
+}
+.member-benefit-container{
+  background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.74) 100%), url('../../public/member-benefit.png');
+  height: 778px;
+  width: 100% ;
+  background-size: cover;
+  
+}
+.give-away-detials{
+
+  background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.74) 100%), url('../../public/giveaway-detial.png');
+  height: 778px;
+  width: 100% ;
+  background-size: cover;
+}
+.more-entries{
+
+  background-image: linear-gradient( #000000 , rgba(0, 0, 0, 0.74) ), url('../../public/entries.jpg');
+  width: 1440px  ;
+  height: 687px;
+  background-size: cover;
+  
+}
+.custom-gold{
+  color: rgb(253, 187, 47) ;
+
+}
 
 
 

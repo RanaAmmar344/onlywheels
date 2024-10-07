@@ -229,7 +229,6 @@ export const MEMBERSHIP = [
       dollar:"S1",
     steps: [
       {
-
         text: "50x Accumulating Free Entry into every Promotion Giveaway",
       },
       {
