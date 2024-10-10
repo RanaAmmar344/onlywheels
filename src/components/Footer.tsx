@@ -26,7 +26,7 @@ const Footer = () => {
      
     </div>
     
-          <div className='flex  footer-item '> 
+          <div className='flex footer-item '> 
           {
             FOOTER.categories.map((footer,index)=>(
               <div key={index} className=' mx-4  w-full md:w-1/2 lg:w-full'>

@@ -18,7 +18,6 @@ const Faq = () => {
 
             <div className='flex flex-col lg:flex-row lg:justify-around items-center lg:items-start lg:space-x-20 my-40 px-4 lg:px-0'>
 
-                {/* Left Section */}
                 <div className='mb-10 lg:mt-48 '>
                     <h1 className='font-bai-jamjuree text-3xl sm:text-4xl lg:text-[40px] font-bold leading-tight text-left text-white border-b-2 pb-3 border-red-600'>
                         Frequently Asked <br /> Questions
@@ -28,7 +27,7 @@ const Faq = () => {
                     </p>
                 </div>
 
-                {/* Right Section (Accordion) */}
+              
                 <div className='w-full  text-white bg-[rgba(188,0,13,0.28)] p-6 rounded-xl lg:max-w-2xl'>
                     <h1 className='font-bai-jamjuree text-3xl sm:text-4xl lg:text-[42px] font-bold leading-tight text-center'>
                         Do you have questions?

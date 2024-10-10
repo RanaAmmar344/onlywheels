@@ -1,9 +1,14 @@
+import Navbar from '@/components/Navbar'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>
-      <h1 className='text-white bg-red-500'> this is login page</h1>
+    <div className='login-container '>
+      <Navbar/>
+      <div className='login-form relative top-[129px] left-[285px]'>
+
+      </div>
+      
     </div>
   )
 }
