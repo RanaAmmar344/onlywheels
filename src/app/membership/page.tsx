@@ -1,10 +1,10 @@
-import Navbar from '@/components/Navbar'
-import { MEMBERSHIP } from '@/constants'
-import { FaCircleCheck } from "react-icons/fa6";
+
 import Image from 'next/image';
 import React from 'react'
 import { Button } from '@/components/ui/button';
 import Footer from '@/components/Footer'
+import Navbar from "@/components/Navbar";
+import { FaCircleCheck } from "react-icons/fa6";
 const membership = () => {
   return (
     <div className='w-screen mx-auto overflow-hidden bg-black'>
