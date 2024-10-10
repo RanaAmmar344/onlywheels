@@ -255,7 +255,29 @@ position: relative;
   background-position: 50%;
 }
 
+.member-only-container{
+  background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.74) 100%), url('../../public/members-only.png');
+  height: 800px;
+  width: auto;
+  background-size: cover;
+  
 
+}
+.feed-main-container{
+  
+  background: linear-gradient(180deg, #000000 -15.26%, rgba(0, 0, 0, 0.66) 100%);
+ width: auto;
+ height: 4457px
+ ;
+ overflow: hidden;
+}
+.fa-search{
+  position: absolute;
+  left: 45px;
+  top: 29px;
+  transform: translateY(-50%);
+  color: rgb(143, 130, 130);
+}
 
 
 
@@ -317,6 +339,12 @@ bottom: 88px;
 
   height:100px;
   width: 100px;
+ }
+ .feed-btn{
+  position: relative;
+  right: 10px;
+
+
  }
       
   }
