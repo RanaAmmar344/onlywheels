@@ -294,9 +294,10 @@ position: relative;
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.76) 35.5%, rgba(102, 102, 102, 0.3876) 100%), 
   url('../../public/signin.jfif');
 background-size: cover;
-background-position: center;
-width: auto;
+width: 100%;
 height: 1024px;
+background-position: 70%;
+
 }
 .login-form{
   background-image: url('../../public/login-bg.png');
@@ -304,6 +305,9 @@ height: 1024px;
   height: 766px;
 }
 
+.checkbox{
+  color: #888EA8;
+}
 
 
 /* custom Responsive Query */
@@ -370,6 +374,22 @@ bottom: 88px;
   right: 10px;
 
 
+
+ }
+ .login-res{
+  position: relative;
+  right: 22px;
+
+
+ }
+ .login-form{
+  width: 350px;
+  position: relative;
+left: 20px;
+
+ }
+ .login-btn{
+width: 100px;
 
  }
       
